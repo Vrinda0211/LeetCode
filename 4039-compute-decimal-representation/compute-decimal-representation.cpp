@@ -3,7 +3,7 @@ public:
     vector<int> decimalRepresentation(int n) {
         long place=1,rem;
         vector<int> res;
-        while(n!=0)
+        while(n !=0)
         {
             rem=n%10;
             if(rem!=0)
