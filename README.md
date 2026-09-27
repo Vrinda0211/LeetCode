@@ -1,2 +1,11 @@
-# LeetCode
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/minjungsung/leethub)
+# LeetCode Solutions
+
+My collection of LeetCode solutions written in C++.
+
+## Language
+
+C++
+
+## Useful Links
+
+https://leetcode.com/u/vrinda2005/
