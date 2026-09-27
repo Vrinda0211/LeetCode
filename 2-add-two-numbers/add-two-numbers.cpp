@@ -42,7 +42,7 @@ public:
             l2=l2->next;
             
         }
-        if(carry!=0)
+        if(carry !=0)
         {
             tail->next=new ListNode(carry);
             tail->next->next=NULL;
