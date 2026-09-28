@@ -4,6 +4,6 @@ BEGIN
   SET offset_val=N-1;
   RETURN (
       # Write your MySQL query statement below.
-        SELECT DISTINCT salary as getNthHighestSalary FROM Employee ORDER BY salary DESC LIMIT 1 OFFSET offset_val
+        SELECT DISTINCT salary AS getNthHighestSalary FROM Employee ORDER BY salary DESC LIMIT 1 OFFSET offset_val
   );
 END
