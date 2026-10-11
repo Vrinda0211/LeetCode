@@ -12,7 +12,7 @@ public:
                     bitcount++;
                 }
             }
-            if(bitcount%3==1)
+            if(bitcount%3== 1)
                 ans=ans|(1<<i);
         }
         return ans;
