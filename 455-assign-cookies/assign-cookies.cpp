@@ -4,7 +4,7 @@ public:
         int sp=0,gp=0;
         sort(s.begin(),s.end());
         sort(g.begin(),g.end());
-        while(sp<s.size() && gp<g.size())
+        while(sp<s.size() && gp<g.size() )
         {
             if(s[sp]>=g[gp])
                 gp+=1;
